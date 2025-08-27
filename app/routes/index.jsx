@@ -6,8 +6,7 @@ import {
   HomeIcon,
   ImageIcon,
   ClockIcon,
-  PlusIcon,
-  ChartBarIcon
+  PlusIcon
 } from '@shopify/polaris-icons';
 
 export const loader = async ({ request }) => {
@@ -110,7 +109,6 @@ export default function Index() {
                     <Button 
                       fullWidth 
                       variant="plain"
-                      icon={ChartBarIcon}
                     >
                       Post History
                     </Button>

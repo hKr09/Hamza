@@ -3,7 +3,7 @@
 client_id = "ab08f1d412e16dc1f3c901b3ac9d87e2"
 name = "hamza"
 handle = "hamza-13"
-application_url = "https://iran-fax-jake-characterization.trycloudflare.com"
+application_url = "https://donate-designing-financial-commissions.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://iran-fax-jake-characterization.trycloudflare.com/auth/callback", "https://iran-fax-jake-characterization.trycloudflare.com/auth/shopify/callback", "https://iran-fax-jake-characterization.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://donate-designing-financial-commissions.trycloudflare.com/auth/callback", "https://donate-designing-financial-commissions.trycloudflare.com/auth/shopify/callback", "https://donate-designing-financial-commissions.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false

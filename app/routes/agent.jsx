@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import pkg from '@shopify/polaris';
 const { Page, Layout, Card, Text, Grid, Button, TextField, Select, Stack, Thumbnail, Frame, TopBar, Navigation, Toast } = pkg;
-import { HomeIcon, ImageIcon, ClockIcon, DuplicateMinor, ExportIcon } from '@shopify/polaris-icons';
+import { HomeIcon, ImageIcon, ClockIcon, DuplicateIcon, ExportIcon } from '@shopify/polaris-icons';
 
 export const meta = () => [{ title: 'Agent Task - AI Social Post Studio' }];
 
@@ -101,7 +101,7 @@ export default function AgentPage() {
                       <Thumbnail source={preview.imageUrl} alt="Preview" size="large" />
                       <TextField label="Caption" value={caption} onChange={setCaption} multiline={6} />
                       <div className="flex gap-3">
-                        <Button icon={DuplicateMinor} onClick={copyCaption} variant="primary">Copy Caption</Button>
+                        <Button icon={DuplicateIcon} onClick={copyCaption} variant="primary">Copy Caption</Button>
                         <Button icon={ExportIcon} onClick={downloadImage} variant="secondary">Download Image</Button>
                       </div>
                     </Stack>
